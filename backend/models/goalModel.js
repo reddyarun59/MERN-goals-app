@@ -7,9 +7,9 @@ const goalSchema=mongoose.Schema({
         ref:"User"
     },
     text:{
-        type: 'string',
+        type: String,
         required: [true, "Please add text value"]
-    }
+    },
 },{
     timestamps:true
 })
