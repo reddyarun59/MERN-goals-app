@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Dashboard from './Pages/Dashboard';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
+
 function App() {
   return (
     <>
@@ -15,7 +16,6 @@ function App() {
             <Route path="/register" element={<Register />} />
           </Routes>
         </div>
-
       </Router>
     </>
   );
